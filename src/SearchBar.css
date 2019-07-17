@@ -1,0 +1,22 @@
+*{
+    margin:0px;
+    padding:0px; 
+}
+h1{
+    background-color:#282c34;
+    padding:25px;
+     color:#39a1ef; 
+}
+input{
+    margin:3vh;
+    padding:20px 30px 20px 30px;
+    border:1px solid #ccc;
+}
+button{
+    margin:3vh;
+    padding:10px 25px;
+    background-color:#dc3545;
+    box-shadow:0px 3px 3px 0px #dc3455; 
+    border-radius:3px; 
+    border:none;  
+}

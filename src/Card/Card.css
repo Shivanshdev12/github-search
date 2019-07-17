@@ -1,0 +1,42 @@
+body{
+    background-color: #dddd;
+}
+.card-body{
+    padding:10px;
+    color:#fff;
+    background-color:#272822; 
+}
+table{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding:5vh;
+    border:1px solid #ccc; 
+}
+th,td{
+    border:1px solid #ccc;
+    padding:3vh; 
+}
+a,
+a:hover{
+    text-decoration:none;
+    font-size:20px; 
+    color: #39a1ef;
+}
+img{
+    border-radius:50%; 
+    width:200px;
+    height:auto ;
+    max-width: 100%;
+}
+
+@media (max-width:480px)
+{
+    table{
+    
+    display: block;
+    text-align: center;
+    padding:5vh;
+    border:1px solid #ccc;  
+    }
+}
